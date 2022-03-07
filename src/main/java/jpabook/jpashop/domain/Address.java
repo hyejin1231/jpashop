@@ -13,7 +13,7 @@ public class Address {
     private String street;
     private String zipcode;
 
-    protected Address() { // JPA 스펙상 만들어논것 
+    protected Address() { // JPA 스펙상 만들어논것
     }
 
     public Address(String city, String street, String zipcode) {
