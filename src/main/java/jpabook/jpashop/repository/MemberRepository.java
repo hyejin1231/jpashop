@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class MemberRepository {
 
-    @PersistenceContext // Spring boot jpa 에서 @Autowired로도 주입된다! 
+    @PersistenceContext // Spring boot jpa 에서 @Autowired로도 주입된다!
     private EntityManager em;
 
     public void save(Member member) {
